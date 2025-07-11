@@ -208,3 +208,84 @@ nav a{
  .avater-image-date{
   color: #2524328e;
  }
+ /* .webflow section start */
+ .webflow-section{
+  width: 1140px;
+  height: 700px;
+  margin: 0 auto;
+  
+  
+ }
+ .webflow-container{
+  background-color: white;
+  border: 2px solid purple;
+  text-align: center;
+  padding: 70px 150px;
+  border-radius: 14px;
+ }
+ .webflow-title{
+ font-family:"Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+ }
+.webflow-title-description{
+  font-family:"Raleway", sans-serif;
+  font-size: 16px;
+  color: #0000006f;
+  margin: 20px 0;
+}
+.webflow-image{
+  border-radius: 48px;
+  margin-top: 20px;
+}
+/* form section start  */
+.form-section{
+  width: 1140px;
+  height: 630px;
+  margin: 0 auto;
+  border: 3px solid teal;
+}
+.form-section-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:70px 0;
+}
+.form-title{
+  font-family:"Raleway", sans-serif;
+  font-size: 97px;
+  font-weight: bold;
+  color: #000000;
+  width: 528px;
+  
+  
+}
+.form-label-input{
+  width: 500px;
+}
+.form-label-tag{
+   font-family: "Inter", sans-ser40if;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+}
+form input[type="email"], form input[type="text"], form textarea{
+  font-family: "Inter", sans-ser40if;
+  width: 435px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 10px 0 20px 0;
+  color: #000000;
+  background-color: white;
+  display: block;
+  padding: 20px 32px;
+  font-size: 20px;
+  border: 1px solid rgba(238, 235, 235, 0.587);
+}
+.form-textarea{
+  height: 100px;
+}
+.form-button{
+  width: 460px;
+  
+}
