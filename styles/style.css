@@ -17,10 +17,10 @@
 }
 
 /* shard-primary */
- .width-primary{
+ /* .width-primary{
   max-width: 1140px;
   margin: 0 auto;
-}
+} */
 .btn-primary{
   background-color: #4E47FF;
   padding: 12px 36px;
@@ -31,24 +31,27 @@
   font-size: 16px;
   border: none;
 }
-header{
+.header{
   background-image: url(../Assets/Hero-bg.png);
- max-height: 700px;
+  max-height: 700px;
+  border: 1px solid aqua;
+
 }
 
 .nav-title{
   display: flex; 
   justify-content: space-between;
-  padding: 40px 0;
+  align-items: center;
+  height: 150px;
+  width: 1140px;
+  margin: 0 auto;
 }
 .nav-logo{
   font-family: "Inter", sans-ser40if;
   font-size: 34px;
   color:#4E47FF;
 }
-header{
-  height: 900px;
-}
+
 nav a{
   text-decoration: none;
 }
@@ -56,7 +59,7 @@ nav a{
 .banner-div{
  width: 1140px;
  margin: 0 auto;
- padding: 140px 0;
+ padding: 150px 0;
  text-align: center;
  border: 1px solid green;
 
@@ -68,7 +71,17 @@ nav a{
   width: 900px;
   margin: 0 auto;
   border: 1px solid blue;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   
 }
 
+.main{
+  background-color: #F5F8FF;
+  width: 1140px;
+  margin: 0 auto;
+  border: 2px solid red
+}
+.action-container{
+  display: flex;
+  justify-content: space-between;
+}
