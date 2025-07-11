@@ -15,12 +15,7 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
-/* shard-primary */
- /* .width-primary{
-  max-width: 1140px;
-  margin: 0 auto;
-} */
+/* button primary  */
 .btn-primary{
   background-color: #4E47FF;
   padding: 12px 36px;
@@ -30,11 +25,18 @@
   font-weight:bold;
   font-size: 16px;
   border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transition-delay: 0.1s;
+}
+.btn-primary:hover{
+  background-color: #03e103e1
 }
 .header{
   background-image: url(../Assets/Hero-bg.png);
-  max-height: 700px;
-  border: 1px solid aqua;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -61,7 +63,6 @@ nav a{
  margin: 0 auto;
  padding: 150px 0;
  text-align: center;
- border: 1px solid green;
 
 }
 .banner-title{
@@ -70,17 +71,15 @@ nav a{
   font-family: "Raleway", sans-serif;
   width: 900px;
   margin: 0 auto;
-  border: 1px solid blue;
   margin-bottom: 35px;
   
 }
-
+/* main section start  */
 .main{
   background-color: #F5F8FF;
 
-  
-  border: 2px solid red
 }
+/* action section start  */
 .section-container{
   width: 1140px;
   height: 328px;
@@ -118,7 +117,7 @@ nav a{
 /* productive container start  */
 .productive-section-container{
   background-color: #E5E7FF;
-  border: 2px solid green;
+  
   text-align: center;
   width: 1140px;
   margin: 0 auto 135px;
@@ -156,7 +155,7 @@ nav a{
   width: 1140px;
   height: 340px;
   margin: 0 auto 135px;
-  border: 2px solid palevioletred;
+
 }
 .our-user-text{
   font-family:"Raleway", sans-serif;
@@ -184,7 +183,6 @@ nav a{
   border: 1px solid #c5bfbf5a;
   padding: 0 10px;
 
-
 }
 
 .avatar-image-div{
@@ -204,11 +202,11 @@ nav a{
 .avatar-image-description{
   margin-left: 15px;
 }
-
  .avater-image-date{
   color: #2524328e;
  }
  /* .webflow section start */
+
  .webflow-section{
   width: 1140px;
   height: 700px;
@@ -218,7 +216,6 @@ nav a{
  }
  .webflow-container{
   background-color: white;
-  border: 2px solid purple;
   text-align: center;
   padding: 70px 150px;
   border-radius: 14px;
@@ -243,7 +240,7 @@ nav a{
   width: 1140px;
   height: 630px;
   margin: 0 auto;
-  border: 3px solid teal;
+ 
 }
 .form-section-container{
   display: flex;
@@ -256,15 +253,13 @@ nav a{
   font-size: 97px;
   font-weight: bold;
   color: #000000;
-  width: 528px;
-  
-  
+  width: 528px; 
 }
 .form-label-input{
   width: 500px;
 }
 .form-label-tag{
-   font-family: "Inter", sans-ser40if;
+  font-family: "Inter", sans-ser40if;
   font-size: 18px;
   font-weight: 400;
   display: block;
@@ -280,13 +275,13 @@ form input[type="email"], form input[type="text"], form textarea{
   display: block;
   padding: 20px 32px;
   font-size: 20px;
-  border: 1px solid rgba(238, 235, 235, 0.587);
+  border: 1px solid #eeebeb96;
 }
 .form-textarea{
   height: 100px;
 }
 .form-button{
-  width: 460px;
+  width: 500px;
   
 }
 
@@ -299,13 +294,11 @@ form input[type="email"], form input[type="text"], form textarea{
   justify-content: center;
 
 }
-.footer-section-container{
-  
-}
+
 .footer-container{
   width: 530px;
   height: 220px;
-  border: 2px solid red;
+  
  
 }
 .footer-title{
@@ -322,8 +315,6 @@ text-align: center;
 .footer-ul{
   display: flex;
   justify-content: space-around;
-
-  
 }
 .footer-ul li{
   list-style: none;
