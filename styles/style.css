@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+    /* raleway font link  */
+.raleway-first-front {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+     /* inter font link  */
+.inter-second-front {
+  font-family: "Inter", sans-ser40if;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shard-primary */
+ .width-primary{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.btn-primary{
+  background-color: #4E47FF;
+  padding: 12px 36px;
+  color: white;
+  border-radius: 10px;
+  font-family:"Raleway", sans-serif;
+  font-weight:bold;
+  font-size: 16px;
+  border: none;
+}
+header{
+  background-image: url(../Assets/Hero-bg.png);
+ max-height: 700px;
+}
+
+.nav-title{
+  display: flex; 
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.nav-logo{
+  font-family: "Inter", sans-ser40if;
+  font-size: 34px;
+  color:#4E47FF;
+}
+header{
+  height: 900px;
+}
+nav a{
+  text-decoration: none;
+}
+
+.banner-div{
+ width: 1140px;
+ margin: 0 auto;
+ padding: 140px 0;
+ text-align: center;
+ border: 1px solid green;
+
+}
+.banner-title{
+  font-size: 65px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  margin-bottom: 30px;
+  
+}
+
