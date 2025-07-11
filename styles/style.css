@@ -289,3 +289,46 @@ form input[type="email"], form input[type="text"], form textarea{
   width: 460px;
   
 }
+
+/* footer section start  */
+
+.footer-section{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer-section-container{
+  
+}
+.footer-container{
+  width: 530px;
+  height: 220px;
+  border: 2px solid red;
+ 
+}
+.footer-title{
+font-size: 100px;
+font-family:  "Inter", sans-ser40if;
+color: #4E47FF;
+text-align: center;
+}
+.footer-description{
+  color: #8987A1;
+  text-align: center;
+  margin: 20px 0;
+}
+.footer-ul{
+  display: flex;
+  justify-content: space-around;
+
+  
+}
+.footer-ul li{
+  list-style: none;
+}
+.footer-ul a{
+  text-decoration: none;
+  color: #8987A1;
+}
